@@ -1,0 +1,8 @@
+[project]
+name = "nano-vllm-serving-lab"
+version = "0.1.0"
+description = "Local serving baseline plus nano-vLLM scheduler simulation lab"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
