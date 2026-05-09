@@ -92,6 +92,7 @@ def generate_short_prompt() -> str:
 class LMStudioClient:
     def __init__(self, base_url: str = "http://127.0.0.1:1234"):
         self.base_url = base_url.rstrip("/")
+        self.opener = urllib.request.build_opener(urllib.request.ProxyHandler({}))
 
     def _send_streaming(
         self,
@@ -122,7 +123,7 @@ class LMStudioClient:
         )
 
         try:
-            with urllib.request.urlopen(request, timeout=300) as response:
+            with self.opener.open(request, timeout=300) as response:
                 for line in response:
                     line = line.decode("utf-8").strip()
                     if not line or line == "data: [DONE]":

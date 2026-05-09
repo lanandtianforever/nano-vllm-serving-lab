@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="520" viewBox="0 0 920 520">
+<rect width="100%" height="100%" fill="#fbfbf8"/>
+<text x="78" y="38" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#17202a">Context Sweep: Prompt Length vs TTFT</text>
+<text x="78" y="66" font-family="Inter, Arial, sans-serif" font-size="14" fill="#4f5b67">Context label is experimental; prompt length is word-count estimate</text>
+<line x1="78" y1="446" x2="888" y2="446" stroke="#1f2933" stroke-width="1.2"/>
+<line x1="78" y1="96" x2="78" y2="446" stroke="#1f2933" stroke-width="1.2"/>
+<line x1="78" y1="446.00" x2="888" y2="446.00" stroke="#e2e0d8" stroke-width="1"/>
+<text x="68" y="450.00" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="12" fill="#56616b">0.00</text>
+<line x1="78" y1="358.50" x2="888" y2="358.50" stroke="#e2e0d8" stroke-width="1"/>
+<text x="68" y="362.50" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="12" fill="#56616b">0.92</text>
+<line x1="78" y1="271.00" x2="888" y2="271.00" stroke="#e2e0d8" stroke-width="1"/>
+<text x="68" y="275.00" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="12" fill="#56616b">1.85</text>
+<line x1="78" y1="183.50" x2="888" y2="183.50" stroke="#e2e0d8" stroke-width="1"/>
+<text x="68" y="187.50" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="12" fill="#56616b">2.77</text>
+<line x1="78" y1="96.00" x2="888" y2="96.00" stroke="#e2e0d8" stroke-width="1"/>
+<text x="68" y="100.00" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="12" fill="#56616b">3.70</text>
+<line x1="78.00" y1="446" x2="78.00" y2="452" stroke="#1f2933" stroke-width="1"/>
+<text x="78.00" y="472" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#56616b">589</text>
+<line x1="273.13" y1="446" x2="273.13" y2="452" stroke="#1f2933" stroke-width="1"/>
+<text x="273.13" y="472" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#56616b">1152</text>
+<line x1="663.40" y1="446" x2="663.40" y2="452" stroke="#1f2933" stroke-width="1"/>
+<text x="663.40" y="472" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#56616b">2278</text>
+<line x1="888.00" y1="446" x2="888.00" y2="452" stroke="#1f2933" stroke-width="1"/>
+<text x="888.00" y="472" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#56616b">2926</text>
+<path d="M 78.00 388.59 L 273.13 313.65 L 663.40 142.60 L 888.00 178.40" fill="none" stroke="#2d7d46" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="78.00" cy="388.59" r="4.5" fill="#2d7d46" stroke="#fbfbf8" stroke-width="2"/>
+<circle cx="273.13" cy="313.65" r="4.5" fill="#2d7d46" stroke="#fbfbf8" stroke-width="2"/>
+<circle cx="663.40" cy="142.60" r="4.5" fill="#2d7d46" stroke="#fbfbf8" stroke-width="2"/>
+<circle cx="888.00" cy="178.40" r="4.5" fill="#2d7d46" stroke="#fbfbf8" stroke-width="2"/>
+<path d="M 78.00 362.68 L 273.13 289.49 L 663.40 133.50 L 888.00 155.91" fill="none" stroke="#7a4fb3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="78.00" cy="362.68" r="4.5" fill="#7a4fb3" stroke="#fbfbf8" stroke-width="2"/>
+<circle cx="273.13" cy="289.49" r="4.5" fill="#7a4fb3" stroke="#fbfbf8" stroke-width="2"/>
+<circle cx="663.40" cy="133.50" r="4.5" fill="#7a4fb3" stroke="#fbfbf8" stroke-width="2"/>
+<circle cx="888.00" cy="155.91" r="4.5" fill="#7a4fb3" stroke="#fbfbf8" stroke-width="2"/>
+<line x1="658" y1="78" x2="684" y2="78" stroke="#2d7d46" stroke-width="3"/>
+<text x="692" y="82" font-family="Inter, Arial, sans-serif" font-size="13" fill="#34414c">Avg TTFT</text>
+<line x1="658" y1="100" x2="684" y2="100" stroke="#7a4fb3" stroke-width="3"/>
+<text x="692" y="104" font-family="Inter, Arial, sans-serif" font-size="13" fill="#34414c">P95 TTFT</text>
+<text x="483.00" y="496" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#34414c">Avg prompt words</text>
+<text transform="translate(24 271.00) rotate(-90)" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#34414c">Seconds</text>
+</svg>
