@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="620" viewBox="0 0 920 620">
+<rect width="100%" height="100%" fill="#fbfbf8"/>
+<text x="82" y="38" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#17202a">Concurrency Sweep: E2E Latency and TPOT</text>
+<text x="82" y="66" font-family="Inter, Arial, sans-serif" font-size="14" fill="#4f5b67">MacBook Air M5 + LM Studio black-box baseline, qwen/qwen3-8b</text>
+<text x="82" y="82.00" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#34414c">Avg E2E latency (s)</text>
+<line x1="82" y1="288.00" x2="888" y2="288.00" stroke="#1f2933" stroke-width="1.2"/>
+<line x1="82" y1="98.00" x2="82" y2="288.00" stroke="#1f2933" stroke-width="1.2"/>
+<line x1="82" y1="288.00" x2="888" y2="288.00" stroke="#e2e0d8" stroke-width="1"/>
+<text x="72" y="292.00" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="12" fill="#56616b">0.00</text>
+<line x1="82" y1="240.50" x2="888" y2="240.50" stroke="#e2e0d8" stroke-width="1"/>
+<text x="72" y="244.50" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="12" fill="#56616b">4.64</text>
+<line x1="82" y1="193.00" x2="888" y2="193.00" stroke="#e2e0d8" stroke-width="1"/>
+<text x="72" y="197.00" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="12" fill="#56616b">9.27</text>
+<line x1="82" y1="145.50" x2="888" y2="145.50" stroke="#e2e0d8" stroke-width="1"/>
+<text x="72" y="149.50" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="12" fill="#56616b">13.9</text>
+<line x1="82" y1="98.00" x2="888" y2="98.00" stroke="#e2e0d8" stroke-width="1"/>
+<text x="72" y="102.00" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="12" fill="#56616b">18.5</text>
+<path d="M 82.00 230.88 L 197.14 231.36 L 427.43 197.45 L 888.00 121.33" fill="none" stroke="#1b6ca8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="82.00" cy="230.88" r="4.5" fill="#1b6ca8" stroke="#fbfbf8" stroke-width="2"/>
+<circle cx="197.14" cy="231.36" r="4.5" fill="#1b6ca8" stroke="#fbfbf8" stroke-width="2"/>
+<circle cx="427.43" cy="197.45" r="4.5" fill="#1b6ca8" stroke="#fbfbf8" stroke-width="2"/>
+<circle cx="888.00" cy="121.33" r="4.5" fill="#1b6ca8" stroke="#fbfbf8" stroke-width="2"/>
+<text x="82" y="340.00" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#34414c">Avg TPOT (s/chunk)</text>
+<line x1="82" y1="546.00" x2="888" y2="546.00" stroke="#1f2933" stroke-width="1.2"/>
+<line x1="82" y1="356.00" x2="82" y2="546.00" stroke="#1f2933" stroke-width="1.2"/>
+<line x1="82" y1="546.00" x2="888" y2="546.00" stroke="#e2e0d8" stroke-width="1"/>
+<text x="72" y="550.00" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="12" fill="#56616b">0.00</text>
+<line x1="82" y1="498.50" x2="888" y2="498.50" stroke="#e2e0d8" stroke-width="1"/>
+<text x="72" y="502.50" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="12" fill="#56616b">0.03</text>
+<line x1="82" y1="451.00" x2="888" y2="451.00" stroke="#e2e0d8" stroke-width="1"/>
+<text x="72" y="455.00" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="12" fill="#56616b">0.07</text>
+<line x1="82" y1="403.50" x2="888" y2="403.50" stroke="#e2e0d8" stroke-width="1"/>
+<text x="72" y="407.50" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="12" fill="#56616b">0.10</text>
+<line x1="82" y1="356.00" x2="888" y2="356.00" stroke="#e2e0d8" stroke-width="1"/>
+<text x="72" y="360.00" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="12" fill="#56616b">0.14</text>
+<path d="M 82.00 488.19 L 197.14 491.02 L 427.43 456.46 L 888.00 379.33" fill="none" stroke="#c74634" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="82.00" cy="488.19" r="4.5" fill="#c74634" stroke="#fbfbf8" stroke-width="2"/>
+<circle cx="197.14" cy="491.02" r="4.5" fill="#c74634" stroke="#fbfbf8" stroke-width="2"/>
+<circle cx="427.43" cy="456.46" r="4.5" fill="#c74634" stroke="#fbfbf8" stroke-width="2"/>
+<circle cx="888.00" cy="379.33" r="4.5" fill="#c74634" stroke="#fbfbf8" stroke-width="2"/>
+<line x1="82.00" y1="546.00" x2="82.00" y2="552.00" stroke="#1f2933" stroke-width="1"/>
+<text x="82.00" y="572.00" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#56616b">1.00</text>
+<line x1="197.14" y1="546.00" x2="197.14" y2="552.00" stroke="#1f2933" stroke-width="1"/>
+<text x="197.14" y="572.00" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#56616b">2.00</text>
+<line x1="427.43" y1="546.00" x2="427.43" y2="552.00" stroke="#1f2933" stroke-width="1"/>
+<text x="427.43" y="572.00" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#56616b">4.00</text>
+<line x1="888.00" y1="546.00" x2="888.00" y2="552.00" stroke="#1f2933" stroke-width="1"/>
+<text x="888.00" y="572.00" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#56616b">8.00</text>
+<text x="485.00" y="596" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#34414c">Concurrency</text>
+</svg>
